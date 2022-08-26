@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
 @import url(./containerc.css);
+@import url(./form.css);
 
 :root{
     --cor-fundo: #AA96DA;
+    --cor-cinza-darkness: #393e467d;
     --cor-branco: #fff;
     --cor-preto: #000;
 }
