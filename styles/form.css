@@ -12,24 +12,24 @@
     width: 100%;
     padding: 1em 0;
     font-size: 18px;
-    color: var(--cor-branco);
+    border-bottom-color: lightblue;
+    min-width: .7em;
+    color: lightblue;
 }
 
 .form-control input:focus,
 .form-control input:valid{
     outline: 0;
-    border-bottom-color: lightblue;
 }
 
 .form-control input::placeholder{
+    color: var(--cor-branco);
     position: absolute;
     top: 1em;
     left: 0;
     pointer-events: none;
     display: inline-block;
     font-size: 18px;
-    min-width: .7em;
-    color: lightblue;
 }
 
 .form-control label span{
